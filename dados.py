@@ -1,4 +1,5 @@
 nome = input('Qual seu nome? ')
 idade = int(input('Qual sua idade? '))
 endereco = input('Qual seu endereço? ')
-print(' Seu nome é: {} \n Sua idade é: {} anos \n Seu endereço é: {}'.format(nome,idade,endereco))
+estado_civil = input(' Qual seu Estado Civil? ')
+print(' Seu nome é: {} \n Sua idade é: {} anos \n Seu endereço é: {} \n Seu Estado Civil é: {}'.format(nome,idade,endereco, estado_civil))
